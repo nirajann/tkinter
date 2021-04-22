@@ -2,7 +2,7 @@ from tkinter import *
 
 
 win = Tk() #to create the basic window
-win.geometry("310x362")
+win.geometry("310x345")
 win.title("calcubhaiya")
 
 
@@ -11,10 +11,12 @@ win.title("calcubhaiya")
 # 'btn_click' function :
 # This Function continuously updates the
 # input field whenever you enters a number
-def btn_click(item):
+expression = ""
+def btn_click(item):    #lambda:btn_click(item)
     global expression
     expression = expression + str(item)
     input_text.set(expression)
+
 
 # 'bt_clear' function :This is used to clear
 # the input field
@@ -47,7 +49,6 @@ input_field.pack(ipady = 20,ipadx = 20)
 btns_frame = Frame(win, width=465, height=420, bg="Powder blue")
 btns_frame.pack()
 
-expression = ""
 
 #first row
 clear = Button(btns_frame, text="C", fg="black", width=32, height=3, bd=0, bg="#fff", cursor="hand2",command= bt_clear).grid(row=0, column=0, columnspan=3, padx=1, pady=1)
