@@ -4,8 +4,8 @@ Simple calculator using python library in python.Tkinter is a GUI library in pyh
 TOOLS USED 
 
 1.Pycharm as an editor coding.
-2.
-3.tkinter as an module
+
+2.tkinter as an module
 
 
 Links
