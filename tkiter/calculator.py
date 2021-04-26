@@ -4,7 +4,7 @@ from tkinter import *
 win = Tk() #to create the basic window
 win.geometry("310x345")
 win.title("simple calculator")
-
+win.iconbitmap("calculator_31111.ico")
 
 
 ###################Starting with functions ####################
@@ -12,6 +12,7 @@ win.title("simple calculator")
 # This Function continuously updates the
 # input field whenever you enters a number
 expression = ""
+
 def btn_click(item):    #lambda:btn_click(item)
     global expression
     expression = expression + str(item)
@@ -79,4 +80,5 @@ dot = Button(btns_frame, text=".", fg="black", width=10, height=3, bd=0, bg="#ff
 equal = Button(btns_frame, text="=", fg="black", width=22, height=3, bd=0, bg="#eee", cursor="hand2",command = bt_equal).grid(row=6, column=2, columnspan=3, padx=1, pady=1)
 
 win.mainloop()
+
 
