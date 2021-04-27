@@ -12,7 +12,7 @@ win.iconbitmap("calculator_31111.ico")
 
 my_images = ImageTk.PhotoImage(Image.open("983794168.jpg"))
 my_images1 = ImageTk.PhotoImage(Image.open("ON-THE-LI-RIVER-BY-TOBIAS-HAGG-1500x1000.jpeg"))
-my_images2 = ImageTk.PhotoImage(Image.open("Calculator_31111.ico"))
+my_images2 = ImageTk.PhotoImage(Image.open("../tkiter/Calculator_31111.ico"))
 
 def next():
     global my_images1
