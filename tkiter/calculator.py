@@ -1,7 +1,9 @@
 from tkinter import *
 
 
-win = Tk() #to create the basic window
+
+win = Tk() #to create the basic
+# window
 win.geometry("310x345")
 win.title("simple calculator")
 win.iconbitmap("calculator_31111.ico")
